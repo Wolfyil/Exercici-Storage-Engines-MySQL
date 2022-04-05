@@ -279,4 +279,4 @@ CONNECTION='Connexio_Servidor1/Supermercats';*
 
 ***
 
-**Ja estaria**
+*Ja estaria*
