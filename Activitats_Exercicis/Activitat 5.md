@@ -58,10 +58,10 @@
 
 **Els seus exemple d’us son:**
 
-***Millorar el rendiment d’emmagatzematge de dades:*** Els logs es converteixen en escriptures seqüencials i nomes guarden els canvis per tenir una mida mes petita. 
+- ***Millorar el rendiment d’emmagatzematge de dades:*** Els logs es converteixen en escriptures seqüencials i nomes guarden els canvis per tenir una mida mes petita. 
 Així la base de dades es mes ràpid i eficient guardant els canvis de dades de forma seqüencial en un *iblog:_file*.
 
-***La recuperació d’accidents:*** Els fitxers redo log al tornar arrencar el servidor InnoDB detecta que hem tingut una caiguda i farà un crash recovery per tal de recuperar la informació 
+- ***La recuperació d’accidents:*** Els fitxers redo log al tornar arrencar el servidor InnoDB detecta que hem tingut una caiguda i farà un crash recovery per tal de recuperar la informació 
 
 
 ***
