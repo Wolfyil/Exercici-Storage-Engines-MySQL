@@ -2,7 +2,7 @@
 
 ## REQUISITS PREVIS ABANS DE FER LA PRÀCTICA
 
-- Tenir una maquina CentOS 7 minimal amb 2 interfícies de xarxa: 
+- Tenir una maquina CentOS 7 minimal amb 2 interfícies de xarxa (en el exercici 6, necesitarem una altre): 
 
 - *1 NAT* per accés a internet per descarregar lo necessari per fer la practica i actualitzar el sistema 
 
