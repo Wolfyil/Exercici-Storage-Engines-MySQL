@@ -133,11 +133,15 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 - Posant la ruta de la carpeta que vam crear /discs-mysql. Després d’afegir les següents línies guardem i sortim del fitxer.:
 
 *[mysqld]*
+
 *datadir=/discs-mysql*
+
 *socket=/discs-mysql/mysql-sock*
 
 *[client]*
+
 *port=3306*
+
 *socket=/discs-mysql/mysql.sock*
 
 
