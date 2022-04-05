@@ -83,3 +83,7 @@ Així la base de dades es mes ràpid i eficient guardant els canvis de dades de 
 **Numero total de pagines:**
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161846977-9a4aa9bd-e8d5-4caf-bc5f-fb0d471d0ef3.png)
+
+***
+
+*Ja estaria*
