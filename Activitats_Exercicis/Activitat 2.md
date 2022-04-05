@@ -132,13 +132,13 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 - Després de fer les anterior comandes, anirem al fitxer /etc/my.cnf i afegirem les següents línies en la ruta del datadir i el socket.
 - Posant la ruta de la carpeta que vam crear /discs-mysql. Després d’afegir les següents línies guardem i sortim del fitxer.:
 
-*[mysqld]*
+***[mysqld]***
 
 *datadir=/discs-mysql*
 
 *socket=/discs-mysql/mysql-sock*
 
-*[client]*
+***[client]***
 
 *port=3306*
 
