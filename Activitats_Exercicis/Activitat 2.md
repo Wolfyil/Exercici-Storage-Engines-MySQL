@@ -125,7 +125,7 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 
 - Després utilitzarem la següent comanda per copiar recursivament els con-tinguts del /var/lib/mysql a /discs-mysql conservant els permisos origi-nals.:
 
-*cp -R -p /var/lib/mysql/* /discs-mysql*
+cp -R -p /var/lib/mysql/* /discs-mysql
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161806688-5279c49a-1474-4bd6-aa33-0253ddb35693.png)
 
@@ -149,7 +149,7 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 
 - Instal·larem el semanage per el SELinux amb les següents comandes:
 
-*yum provides *bin/semanage*
+yum provides *bin/semanage*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161807053-3ce7dd0b-35ca-443e-b8f6-43b77396ff3a.png)
 
