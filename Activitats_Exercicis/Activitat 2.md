@@ -149,7 +149,7 @@ cp -R -p /var/lib/mysql/* /discs-mysql
 
 - Instal·larem el semanage per el SELinux amb les següents comandes:
 
-yum provides *bin/semanage*
+yum provides *bin/semanage
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161807053-3ce7dd0b-35ca-443e-b8f6-43b77396ff3a.png)
 
