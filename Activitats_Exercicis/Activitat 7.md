@@ -18,9 +18,10 @@
 
 - També crea un metaarxiu que emmagatzema el estat de la taula i el numero de files que existeixen en la taula amb la extensió *CSM*.
 
+***
 
 **A continuació faré un exemple de com utilitzar el ENGINE CSV.**
-
+***
 - Primer iniciarem sessió en el MySQL i utilitzarem una base de dades, en el meu cas la BDD sakila.:
 
 *USE sakila;*
