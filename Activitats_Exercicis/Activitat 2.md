@@ -209,6 +209,7 @@ yum provides *bin/semanage
 - Despres eliminem tots els fitxer ib:
 
 *rm /discs-mysql/ibdata1*
+
 *rm /discs-mysql/ib_logfile**
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161809101-956d7e36-7da1-44fd-972c-a7bf9b30fe64.png)
@@ -242,11 +243,13 @@ yum provides *bin/semanage
 - Crearem els dos directoris /discs-mysql/disk1 i el /discs-mysql/disk2. També farem que el mysql sigui propietari d’aquests directoris:
 
 *mkdir /discs-mysql/disk1*
+
 *mkdir /discs-mysql/disk2*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161809610-c22fb75c-b917-4326-bdde-48ea047530d2.png)
 
 *chown -R mysql:mysql /discs-mysql/disk1*
+
 *chown -R mysql:mysql /discs-mysql/disk2*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161809656-9f208a71-41bf-4bb9-9013-369bb672ae4d.png)
