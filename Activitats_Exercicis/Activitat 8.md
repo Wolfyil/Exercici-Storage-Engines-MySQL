@@ -56,8 +56,7 @@ ENGINE = ROCKSDB;*
     Nom VARCHAR(50) NOT NULL,
     PRIMARY KEY (ID)
 )
-ENGINE = ROCKSDB;
-*
+ENGINE = ROCKSDB;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161853949-d75e25c6-af33-4633-bdb7-86b1d154b2ec.png)
 
@@ -69,8 +68,7 @@ VALUES ('Muerte en el Nilo');*
 ![imagen](https://user-images.githubusercontent.com/61557739/161853973-963d49b4-681b-47cd-8a99-164b06992673.png)
 
 *INSERT INTO Series (Nom)
-VALUES ('Breaking Bad');
-*
+VALUES ('Breaking Bad');*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161854016-edb52456-e2a1-4d34-b1e1-bc5573d18076.png)
 
