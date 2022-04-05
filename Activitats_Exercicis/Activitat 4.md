@@ -24,19 +24,19 @@ ENGINE=InnoDB;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161842761-ca4d504f-6902-4f26-bdf0-cc736afa0c90.png)
 
-***Actor***
+***Actor:***
 
 *ALTER TABLE actor TABLESPACE ts1;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161842840-810e0c2e-7b8b-4788-8847-9dbea2974091.png)
 
-***Address***
+***Address:***
 
 *ALTER TABLE address TABLESPACE ts1;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161842907-41faa9ab-a8b3-4d4f-819e-2a98b1999dc9.png)
 
-***Category***
+***Category:***
 
 *ALTER TABLE category TABLESPACE ts1;*
 
@@ -64,25 +64,38 @@ ENGINE=InnoDB;*
 
 - A continuació col·locarem la resta de taules de la base de dades sakila al tablespace ts2 amb les següents comandes dins del MySQL:
 
+*USE sakila;*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161843325-bf7dc967-41ed-4203-8413-e605ad541a19.png)
 
-*ALTER TABLE city TABLESPACE ts2;
-ALTER TABLE country TABLESPACE ts2;
-ALTER TABLE customer TABLESPACE ts2;
-ALTER TABLE film TABLESPACE ts2;
-ALTER TABLE film_actor TABLESPACE ts2;
-ALTER TABLE film_category TABLESPACE ts2;
-ALTER TABLE film_text TABLESPACE ts2;
-ALTER TABLE inventory TABLESPACE ts2;*
+*ALTER TABLE city TABLESPACE ts2;*
+
+*ALTER TABLE country TABLESPACE ts2;*
+
+*ALTER TABLE customer TABLESPACE ts2;*
+
+*ALTER TABLE film TABLESPACE ts2;*
+
+*ALTER TABLE film_actor TABLESPACE ts2;*
+
+*ALTER TABLE film_category TABLESPACE ts2;*
+
+*ALTER TABLE film_text TABLESPACE ts2;*
+
+*ALTER TABLE inventory TABLESPACE ts2;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161843432-7e59a11e-1e8c-4248-90ec-60759288375e.png)
 
 
-*ALTER TABLE language TABLESPACE ts2;
-ALTER TABLE payment TABLESPACE ts2;
-ALTER TABLE rental TABLESPACE ts2;
-ALTER TABLE staff TABLESPACE ts2;
-ALTER TABLE store TABLESPACE ts2;*
+*ALTER TABLE language TABLESPACE ts2;*
+
+*ALTER TABLE payment TABLESPACE ts2;*
+
+*ALTER TABLE rental TABLESPACE ts2;*
+
+*ALTER TABLE staff TABLESPACE ts2;*
+
+*ALTER TABLE store TABLESPACE ts2;*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161843468-36a9bcfb-1156-4270-ac9a-9418f087fefc.png)
 
@@ -153,25 +166,34 @@ WHERE country ='Spain';*
 
 *USE Nom_Base_De_Dades;*
 
+***
+
 ***Per crear els tablespaces:***
 
 *CREATE TABLESPACE `Nom_Tablespace`
 ADD DATAFILE ‘Nom_tablespace.ibd‘
 ENGINE=Motor_Enmagatzematge;*
 
+***
+
 ***Per col·locar taules en tablespaces:***
 
 *ALTER TABLE Nom_Taula TABLESPACE Nom_Tablespace;*
+
+***
 
 ***Per inserir dades a una taula:***
 
 *INSERT INTO Nom_Taula (Nom_Columna1, Nom_Columna2...)
 VALUES (Valor1, Valor2...);*
 
+***
+
 ***Per mostrar totes les dades d’una taula:***
 
  *SELECT * FROM Nom_Taula;*
 
+***
 
 ***Per eliminar els registres d’una taula:***
 
