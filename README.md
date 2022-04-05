@@ -12,7 +12,7 @@
 - *1 Adaptador nomes amfitrió* per tenir connexió des de el Putty del nostre ordinador a la Maquina CentOS 7 minimal de forma segura.
 
 
-
+***
 
 - Tinc el centos i el Percona Server amb totes les ultimes actualitzacions per poder fer la practica
 
