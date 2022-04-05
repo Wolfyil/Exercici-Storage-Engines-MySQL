@@ -220,6 +220,7 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 - Anirem al fitxer /etc/my.cnf per fer la configuracio i posar l’altre fitxer ibdata2, posarem les següents linees:
 
 *innodb_autoextend_increment=5M*
+
 *innodb_data_file_path=ibdata1:10M;ibdata2:10M:autoextend*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161809253-eff2172d-5752-4824-be39-c1fb6d9dd193.png)
@@ -268,7 +269,9 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 - Després anirem al fitxer /etc/my.cnf i afegirem les següents línies:
 
 *innodb_autoextend_increment=5M*
+
 *innodb_data_home_dir =*
+
 *innodb_data_file_path=/disk1/ibdata1:10M;/disk2/ibdata2:10M:autoextend*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161809822-0f9b9bd2-d298-4db9-9166-f302b76e0488.png)
