@@ -1,5 +1,8 @@
 # STORAGE-ENGINES-MySQL
 
+### Nom d'alumne --> Daniel García Costa
+***
+
 ## REQUISITS PREVIS ABANS DE FER LA PRÀCTICA
 
 - Tenir una maquina CentOS 7 minimal amb 2 interfícies de xarxa (en el exercici 6, necesitarem una altre): 
@@ -9,7 +12,7 @@
 - *1 Adaptador nomes amfitrió* per tenir connexió des de el Putty del nostre ordinador a la Maquina CentOS 7 minimal de forma segura.
 
 
-***
+
 
 - Tinc el centos i el Percona Server amb totes les ultimes actualitzacions per poder fer la practica
 
