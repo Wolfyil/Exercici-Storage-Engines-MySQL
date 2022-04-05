@@ -132,6 +132,15 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 - Després de fer les anterior comandes, anirem al fitxer /etc/my.cnf i afegirem les següents línies en la ruta del datadir i el socket.
 - Posant la ruta de la carpeta que vam crear /discs-mysql. Després d’afegir les següents línies guardem i sortim del fitxer.:
 
+*[mysqld]*
+*datadir=/discs-mysql*
+*socket=/discs-mysql/mysql-sock*
+
+*[client]*
+*port=3306*
+*socket=/discs-mysql/mysql.sock*
+
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161806928-31bd6a32-d3fa-4ac5-a591-fd6391043da0.png)
 
 - Instal·larem el semanage per el SELinux amb les següents comandes:
