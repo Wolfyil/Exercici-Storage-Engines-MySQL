@@ -7,6 +7,8 @@
 
 - Iniciem sessió en el mysql per comprovar que el innodb_file_per_table esta desactivat per l’exercici 2:
 
+*SHOW VARIABLES LIKE "innodb_file_per_table";*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161814497-736068ff-ea61-49a1-a223-e73cc2bf0d1e.png)
 
 ***El nostre objectiu es activar aquesta funció i que les taules d’una base de dades tinguin els seus propis tablespaces***
@@ -37,6 +39,8 @@ cp -R -p /var/lib/mysql/* /tspaces
 - Posant la ruta de la carpeta que vam crear /tspaces. Després d’afegir les següents línies guardem i sortim del fitxer.:
 
 - També editarem la següent línia en el mateix fitxer perquè cada taula tingui el seu fitxer .ibd:
+
+***[mysqld]***
 
 *innodb_file_per_table=ON*
 
