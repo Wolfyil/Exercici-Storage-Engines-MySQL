@@ -58,6 +58,8 @@ El motor que no esta actiu es el:
 
 - Després tornem a iniciar sessió en el Percona Server MySQL i comprovem que MyISAM sigui el motor d’emmagatzematge per defecte:
 
+*SHOW ENGINES;*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161743869-fb10eea9-9153-4fc5-930f-290895605a52.png)
 
 ***
