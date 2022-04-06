@@ -31,7 +31,7 @@
 
 - Com podem veure esta desactivat el motor federated, per activar-ho hem d’anar al fitxer /etc/my.cnf i afegir la següent línia, guardem i sortim del fitxer:
 
-*[mysqld]*
+***[mysqld]***
 
 *federated*
 
@@ -151,7 +151,7 @@ VALUES ('Mercadona');
 
 - Com podem veure esta desactivat el motor federated, per activar-ho hem d’anar al fitxer /etc/my.cnf i afegir la següent línia, guardem i sortim del fitxer:
 
-*[mysqld]*
+***[mysqld]***
 
 *federated*
 
