@@ -354,7 +354,7 @@ VALUES (1);*
 
 - Després li donarem tots els permisos al usuari Pastanaga amb la següent comanda:
 
-*GRANT ALL PRIVILEGES ON *.* TO 'Pastanaga'@'localhost';*
+GRANT ALL PRIVILEGES ON *.* TO 'Pastanaga'@'localhost';
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161747716-95096bfc-1e45-49ad-a525-36866e917956.png)
 
