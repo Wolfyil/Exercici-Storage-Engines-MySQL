@@ -52,11 +52,12 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 
 - Després la tornarem a importar perquè s’apliquin els canvis de innodb_file_per_table=OFF
 
+*SOURCE /root/sakila-schema.sql*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161804543-beb7bae9-f1bf-40b4-8385-a98322d60b91.png)
 
 - Com podem veure no ens surt fitxers innodb_file_per_table, perquè els vam posar en OFF:
 
-*SOURCE /root/sakila-schema.sql*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161804600-631e031c-d767-474d-9bb2-f29e6e052c86.png)
 
