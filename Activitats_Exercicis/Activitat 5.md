@@ -8,6 +8,9 @@
 
 *SHOW ENGINE INNODB STATUS;*
 
+![imagen](https://user-images.githubusercontent.com/61557739/161947000-44042483-de8f-4c9f-b91b-b82fbd97f58e.png)
+
+
 **Una vegada executada la comanda anterior ens sortirà diferents informacions com podem veure en pantalla:**
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161845943-c6821a74-80e1-411e-bf51-7b6c66f868a2.png)
@@ -73,6 +76,9 @@ Així la base de dades es mes ràpid i eficient guardant els canvis de dades de 
 - Utilitzant la comanda anterior:
 
 *SHOW ENGINE INNODB STATUS;*
+
+![imagen](https://user-images.githubusercontent.com/61557739/161947146-832710c1-d4db-477b-8be8-22bbced428c1.png)
+
 
 - Si anem cap avall hi ha un apartat anomenat *Buffer Pool and Memory*, aquí podem trobar el numero de pagines modificades i el numero total de pagines:
 
