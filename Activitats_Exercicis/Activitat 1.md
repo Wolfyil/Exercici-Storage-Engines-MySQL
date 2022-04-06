@@ -171,7 +171,13 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'InnoD
 
 - També l’altre manera es anar al fitxer my,cnf i posarem el InnoDB amb la següent línia de codi, guardem i reiniciem el percona MySQL:
 
+***[mysqld]***
+
+*default-storage-engine = InnoDB*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161745469-0ea21524-89ee-4045-a940-5bb1ebbff7fe.png)
+
+*systemctl restart mysql*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161745523-90899c0c-5cb9-4182-a1b7-06a2f6a15cc0.png)
 
@@ -354,7 +360,7 @@ VALUES (1);*
 
 - Després li donarem tots els permisos al usuari Pastanaga amb la següent comanda:
 
-GRANT ALL PRIVILEGES ON *.* TO 'Pastanaga'@'localhost';
+GRANT ALL PRIVILEGES ON `*.*` TO 'Pastanaga'@'localhost';
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161747716-95096bfc-1e45-49ad-a525-36866e917956.png)
 
