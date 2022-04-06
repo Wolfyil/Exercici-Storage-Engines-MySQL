@@ -56,6 +56,8 @@ FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'sakila' AND ENGINE = 'MyISA
 
 - Com podem veure no ens surt fitxers innodb_file_per_table, perquè els vam posar en OFF:
 
+*SOURCE /root/sakila-schema.sql*
+
 ![imagen](https://user-images.githubusercontent.com/61557739/161804600-631e031c-d767-474d-9bb2-f29e6e052c86.png)
 
 - Després per fer el canvi del storage engine de MyISAM a InnoDB hem de fer la següent comanda per totes les taules.
@@ -220,6 +222,8 @@ yum provides *bin/semanage
 
 - Anirem al fitxer /etc/my.cnf per fer la configuracio i posar l’altre fitxer ibdata2, posarem les següents linees:
 
+***[mysqld]***
+
 *innodb_autoextend_increment=5M*
 
 *innodb_data_file_path=ibdata1:10M;ibdata2:10M:autoextend*
@@ -270,6 +274,8 @@ yum provides *bin/semanage
 
 
 - Després anirem al fitxer /etc/my.cnf i afegirem les següents línies:
+
+***[mysqld]***
 
 *innodb_autoextend_increment=5M*
 
