@@ -19,6 +19,8 @@
 
 - També es pot anar al fitxer /etc/my.cnf i afegir la línia innodb_file_per_table=OFF per desactivar l’opció:
 
+***[mysqld]***
+
 *innodb_file_per_table=OFF*
 
 ![imagen](https://user-images.githubusercontent.com/61557739/161803935-71c6d39d-aa94-4f53-a5bf-20d679ed6ae5.png)
