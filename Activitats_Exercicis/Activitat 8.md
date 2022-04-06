@@ -171,7 +171,7 @@ WHERE option_type LIKE '%ompression%' AND cf_name='default';*
 
 - Per canviar-ho hem d’anar al fitxer */etc/my.cnf* i afegir la següent línia que això ens canviarà el format LZ4 cap al format ZSTD, guardem el fitxer i sortim:
 
-*[mysqld]*
+***[mysqld]***
 
 *rocksdb_default_cf_options=compression=kZSTD;bottommost_compression=kZSTD*
 
